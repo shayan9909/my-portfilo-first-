@@ -1,0 +1,408 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+.box{
+  display: flex;
+}
+/* ===============================common css====================================== */
+/* ================================navbar css start================================================= */
+
+nav {
+  background: #000;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 30px;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.nav-list li a {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  font-family: Poppins, sans-serif;
+  padding: 10px 20px;
+  background: transparent;
+  transition: .4s;
+  border-radius: 10px;
+}
+
+.nav-list li a:hover {
+  border-color: white;
+  transform: scale(1.05);
+  box-shadow: 0 0 12px 4px rgba(0, 76, 253, 0.6); 
+  animation: pulseGlow 1.5s infinite;
+  color: white;
+}
+
+.logo a {
+  font-size: 30px;
+  font-weight: 800;
+  background: -webkit-linear-gradient(#6CB3FF, #210A6F);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  font-family: "Archivo Black", "Archivo", sans-serif;
+}
+
+
+.button a {
+  padding: 12px 40px;
+  font-size: 16px;
+  font-family: poppins, sans-serif;
+  font-weight: 600;
+  color: white;
+  background: linear-gradient(#0032A0, #004CFD);
+  border-radius: 10px;
+  text-transform: capitalize;
+  transition: .4s;
+  border: 2px solid transparent;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
+.button a:hover{
+  background: linear-gradient(90deg, #005CFF, #0A0A70);
+  border-color: white;
+  transform: scale(1.05);
+  box-shadow: 0 0 12px 4px rgba(0, 76, 253, 0.6); 
+  animation: pulseGlow 1.5s infinite;
+}
+
+
+@keyframes pulseGlow {
+  0% {
+    box-shadow: 0 0 12px 4px rgba(0, 76, 253, 0.6);
+  }
+  50% {
+    box-shadow: 0 0 18px 8px rgba(0, 76, 253, 0.8);
+  }
+  100% {
+    box-shadow: 0 0 12px 4px rgba(0, 76, 253, 0.6);
+  }
+}
+
+
+/* ==========================navbar css end========================================== */
+/* ==========================banner css start ========================================== */
+
+.banner {
+  background: #000;
+  padding-bottom: 150px;
+}
+
+.banner-left{
+  width: 50%;
+}
+
+.banner-text {
+
+  max-width: 594px;
+  padding: 106px 0;
+}
+
+.banner-text .intro {
+  font-size: 24px;
+  font-family: lato, sans-serif;
+  font-weight: 500;
+  color: #a6a5a5;
+  padding-bottom: 10px;
+}
+
+
+.banner-text h2 {
+  font-size: 28px;
+  font-family: lato, sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+
+.banner-text h1 {
+  font-size: 64px;
+  font-family: lato, sans-serif;
+  font-weight: 900;
+  background-image: linear-gradient(to left top, #120098, #1428ae, #1b43c3, #275dd7, #3876e9, #3b7bec, #3e81ef, #4286f2, #3579e8, #276bdf, #175ed4, #0051ca);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  ;
+  margin-bottom: 17px;
+}
+
+.banner-text .icon i {
+  background: -webkit-linear-gradient(#ffffff, #575757);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 50px;
+  margin-bottom: 61px;
+}
+
+
+.banner-text p {
+  font-size: 20px;
+  font-family: lato, sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+
+  margin-bottom: 30px;
+width: 450px;
+}
+
+
+.button2 a {
+  padding: 12px 40px;
+  font-size: 16px;
+  font-family: poppins, sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+  background: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  text-transform: capitalize;
+  transition: .4s;
+}
+
+
+.bt-box .button2 a:hover{
+  background: linear-gradient(90deg, #005CFF, #0A0A70);
+  border-color: white;
+  transform: scale(1.05);
+  box-shadow: 0 0 12px 4px rgba(0, 76, 253, 0.6); 
+  animation: pulseGlow 1.5s infinite;
+}
+
+.bt-box {
+  display: flex;
+  column-gap: 25px;
+
+}
+.bt-box a:hover {
+  background: transparent;
+  color: white;
+  border: 2px solid white; /* Add this */
+}
+
+.info-box {
+  margin-top: 80px;
+
+  background: #1E1E1E;
+  border-radius: 10px;
+
+}
+
+
+
+
+.mini-box i{
+  font-size: 50px;
+  margin-left: 10px;
+  color: #FD6F00;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.mini-box .fa-css3-alt{
+  color: #007AFD;
+}
+
+.mini-box .progress{
+  width: 85%;
+  margin-left: 6px;
+
+}
+
+
+.button a{
+  border: 2px solid transparent ; 
+}
+
+
+
+
+.box2{
+  width: 100%;
+  height: 50%;
+  position: relative;
+}
+
+.box h5{
+  font-size: 20px;
+  font-family: lato, sans-serif;
+  font-weight: 600;  
+  color: white; 
+   position: absolute;
+  top: 5px;
+  left: 60px;
+ 
+}
+
+  .mini-box{
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+  }
+  
+ .info-box .exp {
+  font-size: 24px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+  color: white;
+  text-transform: uppercase;
+display: inline-block;
+margin-left: 35%;
+margin-top: 15px;
+}
+
+
+
+.circle{
+  width: 618px;
+  height: 618px;
+  border-radius: 50%;
+background: rgb(255, 255, 255, 10%);
+border: 2px solid linear-gradient(90deg, #4fb3ee, #3156e8);
+margin-top: 163px;
+position: relative;
+border-color: white;
+transform: scale(1.05);
+box-shadow: 0 0 12px 4px rgba(0, 76, 253, 0.6); 
+animation: pulseGlow 1.5s infinite;
+}
+
+.circle img{
+position: absolute;
+top: 0;
+left: 50%;
+border-radius: 50%;
+height: 610px;
+transform: translate(-50%, 0);
+}
+
+.circle img:hover{
+  transform: translate(-50%, -10px);
+  transition: all 0.5s ease-in-out;
+} 
+/* ==================================banner css end =================================== */
+/* ==================================service css start =================================== */
+
+.service {
+  background: #000000;
+  padding-bottom: 150px ;
+  text-align: center;
+}
+
+
+.service-text h2 {
+  font-size: 40px;
+  font-family: lato, sans-serif;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 24px;
+  text-transform: uppercase;
+}
+
+.service-text p {
+  font-size: 20px;
+  font-family: lato, sans-serif;
+  font-weight: 500;
+  color: #707070;
+  margin-bottom: 80px;
+  text-transform: capitalize;
+}
+
+.card{
+  width: 400px;
+  height: 500px;
+  background: rgb(255, 255, 255, 6%);
+  border-radius: 24px;
+  border:2px solid transparent linear-gradient(#0032A0, #004CFD);
+  transition: .4s;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  margin-left: 60px;
+}
+
+.card:hover{
+  border-color: white;
+  transform: scale(1.05);
+  box-shadow: 0 0 12px 4px rgba(0, 76, 253, 0.6); 
+  animation: pulseGlow 1.5s infinite;
+}
+
+.card i{
+  font-size: 100px;
+  color: #007BFF;
+  margin-top: 40px;
+  margin-bottom: 22px;
+ 
+}
+
+.card h3{
+  font-size: 26px;
+  font-family: lato, sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+ margin-bottom: 34px;
+  text-transform: uppercase;
+
+}
+
+.card p{
+  font-size: 15px;
+  font-family: lato, sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+  margin-bottom: 34px;
+  text-transform: capitalize;
+  width: 339px;
+margin-left: 25px;
+padding-right: 20px;
+}
+
+.btn a{
+  padding: 10px 115px;
+  background: red;
+  border-radius: 20px;
+  font-size: 20px;
+  font-family: lato, sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+text-transform: capitalize;
+background: linear-gradient(#0032A0, #004CFD);
+border: 2px solid transparent;
+  transition: .4s;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+
+}
+.btn a:hover{
+  border-color: white;
+  transform: scale(1.05);
+  box-shadow: 0 0 12px 4px rgba(0, 76, 253, 0.6); 
+  animation: pulseGlow 1.5s infinite;
+}
