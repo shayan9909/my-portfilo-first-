@@ -8,6 +8,7 @@
   margin: 0 auto;
 }
 
+
 ul,
 ol {
   list-style: none;
@@ -20,12 +21,14 @@ a {
 
 .box{
   display: flex;
+
 }
 /* ===============================common css====================================== */
 /* ================================navbar css start================================================= */
 
 nav {
   background: #000;
+  padding-top: 20px;
 }
 
 .nav-bar {
@@ -117,6 +120,7 @@ nav {
   padding-bottom: 150px;
 }
 
+
 .banner-left{
   width: 50%;
 }
@@ -206,7 +210,7 @@ width: 450px;
 .bt-box a:hover {
   background: transparent;
   color: white;
-  border: 2px solid white; /* Add this */
+  border: 2px solid white; 
 }
 
 .info-box {
@@ -348,7 +352,7 @@ transform: translate(-50%, 0);
   margin-left: 60px;
 }
 
-.card:hover{
+.service  .card:hover{
   border-color: white;
   transform: scale(1.05);
   box-shadow: 0 0 12px 4px rgba(0, 76, 253, 0.6); 
@@ -405,4 +409,531 @@ border: 2px solid transparent;
   transform: scale(1.05);
   box-shadow: 0 0 12px 4px rgba(0, 76, 253, 0.6); 
   animation: pulseGlow 1.5s infinite;
+  background: transparent;
+}
+/* ==========================service css ends======================================== */
+/* ==========================about css start======================================== */
+
+
+.about {
+  background: #000;
+  padding-bottom: 150px;
+  padding-top: 111px;
+  text-align: center;
+}
+
+.about .left-img{
+ position: relative;
+
+}
+
+
+.about h2{
+  font-size: 40px;
+  font-family: lato, sans-serif;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 86px;
+  text-transform: uppercase;
+}
+
+.about h2 span{
+  font-size: 40px;
+  font-family: lato, sans-serif;
+  font-weight: 700;
+  background-image: linear-gradient(to left top, #120098, #1428ae, #1b43c3, #275dd7, #3876e9, #3b7bec, #3e81ef, #4286f2, #3579e8, #276bdf, #175ed4, #0051ca);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 86px;
+  text-transform: uppercase;
+}
+
+.about .card{
+  width: 363px;
+  height: 355px;
+margin-top: 70px;
+border: 1px solid white;
+border-top: none;
+box-shadow: 0 10px 0  rgba(65, 63, 63, 0.641);
+
+}
+
+.about .card h2{
+  font-size: 32px;
+  font-family: lato, sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 155px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 9px;
+}
+
+.about .card p{
+  font-size: 20px;
+  font-family: lato,;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: center;
+width: 207px;
+line-height: 36px;
+margin-left: 90px;
+}
+.about .left-img .circle{
+  width: 260px;
+  height: 260px;
+  position: absolute;
+  top: -50%;
+  left: 56%;
+  transform: translateX(-50%);
+  background: #ffffff;
+
+}
+.about .left-img .circle img{
+  height: 244px;
+}
+
+.right-text .info h3{
+  font-size: 35px;
+  font-family: lato, sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+text-align: left;
+text-transform: capitalize;
+margin-bottom: 20px;
+
+}
+.right-text .info{
+  margin-top: 80px;
+  margin-left: 50px;
+  display: flex;
+}
+.right-text .info .right-info h3{
+  margin-left: 22px;
+}
+.about .box{
+  margin-left: 93px;
+
+}
+
+.ab-box{
+display: flex;
+}
+
+/* ==========================about css end======================================== */
+/* ==========================contact css start======================================== */
+
+.contact{
+  background: rgb(18, 18, 18);
+  padding-bottom: 150px;
+  padding-top: 111px;
+  text-align: center;
+}
+
+.contact h2{
+  font-size: 40px;
+  font-family: lato, sans-serif;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 86px;
+  text-transform: uppercase;
+}
+
+.contact h2 span{
+  font-size: 40px;
+  font-family: lato, sans-serif;
+  font-weight: 700;
+  background-image: linear-gradient(to left top, #120098, #1428ae, #1b43c3, #275dd7, #3876e9, #3b7bec, #3e81ef, #4286f2, #3579e8, #276bdf, #175ed4, #0051ca);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 86px;
+  text-transform: uppercase;
+}
+
+.contact .box .left a{
+  font-size: 50px;
+  font-weight: 800;
+  background: -webkit-linear-gradient(#6CB3FF, #210A6F);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  font-family: "Archivo Black", "Archivo", sans-serif;
+display: inline-block;
+margin-bottom: 33px;
+}
+ .contact .left{
+  width: 50%;
+  text-align: left;
+ }
+ .contact .right{
+  width: 50%;
+
+ }
+
+ .contact .box .left p{
+  font-size: 16px;
+  font-family: lato, sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+width: 450px;
+margin-bottom: 65px;
+ }
+
+ .contact .box .left .icon a{
+font-size: 20px;
+margin-left: 60px;
+ }
+
+ .contact .box .left .icon a:first-child{
+  margin-left: 0;
+ }
+
+
+ .contact .box .right form input{
+width: 284px;
+height: 53px;
+border-radius: 10px;
+background: rgb(255, 255, 255, 6%);
+margin-left: 22px;
+margin-bottom: 22px;
+outline: none;
+
+border: 1px solid white;
+
+ }
+
+ .contact .box .right form input::placeholder{
+  font-size: 18px;
+font-weight: 600;
+font-family: lato, sans-serif;
+color: #ffffff;
+text-transform: capitalize;
+padding: 15px;
+ }
+
+ .form-box{
+  width: 100%;
+ }
+
+ .contact .box .right form input:nth-child(5){
+  width: 93%;
+ }
+
+ .contact .box .right form .sms textarea{
+  width: 94%;
+  height: 118px;
+  border-radius: 10px;
+  margin-left: 25px;
+  background: rgb(255, 255, 255, 6%);
+  outline: none;
+  border: 1px solid white
+ }
+ .contact .box .right form .sms textarea::placeholder{
+    font-size: 18px;
+font-weight: 600;
+font-family: lato, sans-serif;
+color: #ffffff;
+text-transform: capitalize;
+padding: 15px;
+ }
+
+
+ .right .sms button a{
+  font-size: 18px;
+  font-weight: 600;
+  font-family: lato, sans-serif;
+  color: #ffffff;
+  text-transform: capitalize;
+  padding: 15px 0;
+
+ }
+ .right .sms button{
+  background: rgb(255, 255, 255, 6%);
+  width: 94%;
+  margin-left: 25px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 20px;
+  height: 53px;
+  text-align: center;
+  background: linear-gradient(#0032A0, #004CFD);
+  border: 2px solid transparent;
+  transition: .4s;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+ }
+ .right .sms button:hover{
+  border-color: white;
+  box-shadow: 0 0 12px 4px rgba(0, 76, 253, 0.6);
+  animation: pulseGlow 1.5s infinite;
+  background: transparent;
+ }
+
+
+
+/* ==========================contact css end======================================== */
+
+footer .container h2{
+  font-size: 16px;
+  font-family: lato, sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 20px;
+}
+
+footer{
+  width: 100%;
+  height: 70px;
+  background: rgb(81, 80, 80);
+}
+
+@media (min-width: 320px) and (max-width:575.99px) {
+  .banner{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 90px;
+  }
+  .container{
+    width: 100%;
+  }
+ .box{
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+ }
+ .banner  h1{
+    text-align: center;
+    font-size: 35px;
+  }
+  .banner-left{
+    width: 100%;
+  }
+
+  .banner h4{
+    text-align: center;
+    font-size: 16px;
+  }
+
+.b-p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  .banner h2{
+    text-align: center;
+    font-size: 18px;
+  }
+  .banner p{
+    text-align: center;
+    font-size: 10px;
+  width: 280px;
+  margin-left: 10px;
+  }
+
+  .banner-text .icon i{
+    font-size: 15px;
+  width: 30px;
+  text-align: center;
+  margin-bottom: 25px; 
+ 
+  }
+
+  .banner-text .icon{
+    text-align: center;
+
+  }
+
+  .banner-left .bt-box a{
+    padding: 5px 20px;
+    font-size: 12px;
+  } 
+.banner .bt-box{
+  margin-left: 28px;
+  justify-content: center;
+  align-items: center;
+}
+.banner .info-box h4{
+font-size: 14px
+}
+
+.banner .info-box .box2{
+width: 90%;
+height: 50%;
+}
+
+.banner .info-box{
+  width: 250px;
+  margin: 36px auto;
+}
+
+.banner .info-box .box2 h5{
+  font-size: 12px;
+ margin-bottom: 0;
+top: 12px ;
+left: 42px;
+}
+.banner .info-box .box2 .progress{
+  height: 12px;
+}
+
+.banner .mini-box i{
+  font-size: 30px;
+}
+
+.banner .banner-right .circle{
+margin-top:  -95px ;
+width: 250px;
+height: 250px;
+margin-left: 25px;
+}
+
+.banner .banner-right .circle img{
+  height: 250px;
+}
+/* ================banner mobile done======================== */
+/* ================service mobile start======================== */
+
+.service{
+  width: 100%;
+  height: 100%;
+  padding-bottom: 90px;
+}
+
+.service .service-text h2{
+  font-size: 25px;
+  margin-bottom: 8px;
+}
+.service .service-text p{
+  font-size: 9px;
+}
+.service .card{
+  width: 200px;
+  height: 250px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+
+}
+
+.service .card i{
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.service .card h3{
+  font-size: 15px;
+  margin-bottom: 20px;
+
+}
+
+.service .card  p{
+  font-size: 9px;
+  width: 180px;
+  text-align: center;
+  margin: 0 7px;
+  padding: 0;
+  margin-bottom: 12px;
+}
+.service .card .btn a{
+  padding: 10px 40px;
+  font-size: 10px;
+}
+.service .box{
+  flex-wrap: wrap;
+}
+/* =============service mobile end============================= */
+/* =============about mobile start============================= */
+
+
+
+
+/* =============about mobile end============================= */
+.about{
+  width: 100%;
+  height: 100%;
+  padding-bottom: 90px;
+  padding-top: 15px;
+}
+.about h2{
+  font-size: 20px;
+}
+.about h2 span{
+  font-size: 20px;
+}
+
+.about .box{
+  justify-content: center;
+  align-items: center;
+  margin-left: 0;
+} 
+.about .left-img .card{
+  width: 150px;
+  height: 200px;
+ margin-top: 80px;
+ margin-left: 10px;
+ border-top: none;
+
+}
+
+.about .card h2{
+  font-size: 11px;
+  margin-top: 90px;
+ 
+}
+.about .card p{
+  font-size: 11px;
+  width: 132px;
+  line-height: 24px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.about .left-img{
+
+  position: relative;
+}
+.about .left-img .circle{
+  width: 150px;
+  height: 150px;
+  top: -159px;
+  left: 85px;
+}
+.about .left-img .circle img{
+  width: 150px;
+  height: 150px;
+}
+
+.about .right-text .info .left-info h3{
+  font-size: 9px;
+  margin-bottom: 5px;
+}
+
+
+.about .right-text .info{
+margin-top: 172px;
+margin-left: 18px;
+}
+.about .right-text .info .right-info h3{
+  font-size: 9px;
+  margin-left: 0;
+  margin-bottom: 5px;
+ 
+}
+
+.about .right-text .right-info{
+  margin-left: 9px;
+}
+.about .right-text .info .right-info h3:nth-child(1){
+font-size: 7px;
+
+}
+.about .ab-box{
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
 }
