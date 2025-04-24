@@ -982,6 +982,7 @@ flex-wrap: wrap;
   margin-left: 0;
   padding: 0 10px;
 color: white;
+width: 93%;
 }
 
 .contact .right{
@@ -989,7 +990,7 @@ color: white;
 }
 
 .contact .box .right form .sms textarea{
-  width: 94%;
+  width: 93%;
   margin-left: 0;
   padding: 10px 10px;
 }
