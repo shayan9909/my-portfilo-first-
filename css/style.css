@@ -602,7 +602,7 @@ background: rgb(255, 255, 255, 6%);
 margin-left: 22px;
 margin-bottom: 22px;
 outline: none;
-
+color: white;
 border: 1px solid white;
 
  }
@@ -980,7 +980,7 @@ flex-wrap: wrap;
 .contact .box .right form input{
   margin-left: 0;
   padding: 0 10px;
-
+color: white;
 }
 
 .contact .right{
@@ -1003,7 +1003,10 @@ footer{
   height: 45px;
 }
 }
-@media (min-width: 576px) and (max-width:767.99px) {
+
+
+
+@media (max-width:767.99px) {
   .banner{
     width: 100%;
     height: 100%;
@@ -1019,7 +1022,7 @@ footer{
  }
  .banner  h1{
     text-align: center;
-    font-size: 35px;
+    font-size: 45px;
   }
   .banner-text{
  max-width: 100%;
@@ -1044,13 +1047,13 @@ footer{
   }
   .banner p{
     text-align: center;
-    font-size: 10px;
+    font-size: 14px;
   width: 280px;
   margin-left: 10px;
   }
 
   .banner-text .icon i{
-    font-size: 15px;
+    font-size: 20px;
   width: 30px;
   text-align: center;
   margin-bottom: 25px; 
@@ -1063,7 +1066,7 @@ footer{
   }
 
   .banner-left .bt-box a{
-    padding: 5px 20px;
+    padding: 10px 35px;
     font-size: 12px;
   } 
 .banner .bt-box{
@@ -1072,21 +1075,21 @@ footer{
   align-items: center;
 }
 .banner .info-box h4{
-font-size: 14px
+font-size: 15px
 }
 
 .banner .info-box .box2{
-width: 90%;
+width: 95%;
 height: 50%;
 }
 
 .banner .info-box{
-  width: 250px;
+  width: 400px;
   margin: 36px auto;
 }
 
 .banner .info-box .box2 h5{
-  font-size: 12px;
+  font-size: 14px;
  margin-bottom: 0;
 top: 12px ;
 left: 42px;
@@ -1101,13 +1104,13 @@ left: 42px;
 
 .banner .banner-right .circle{
 margin-top:  -95px ;
-width: 250px;
-height: 250px;
+width: 350px;
+height: 350px;
 margin-left: 25px;
 }
 
 .banner .banner-right .circle img{
-  height: 250px;
+  height: 350px;
 }
 .bt-box a{
   margin-left: 0
@@ -1123,11 +1126,11 @@ margin-left: 25px;
 }
 
 .service .service-text h2{
-  font-size: 25px;
-  margin-bottom: 8px;
+  font-size: 35px;
+  margin-bottom: 12px;
 }
 .service .service-text p{
-  font-size: 9px;
+  font-size: 12px;
 }
 .service .card{
   width: 200px;
@@ -1178,10 +1181,10 @@ margin-left: 25px;
   padding-top: 15px;
 }
 .about h2{
-  font-size: 20px;
+  font-size: 35px;
 }
 .about h2 span{
-  font-size: 20px;
+  font-size: 35px;
 }
 
 .about .box{
@@ -1190,44 +1193,43 @@ margin-left: 25px;
   margin-left: 0;
 } 
 .about .left-img .card{
-  width: 150px;
-  height: 200px;
+  width: 250px;
+  height: 300px;
  margin-top: 80px;
  margin-left: 10px;
  border-top: none;
 
 }
 
-.about .card h2{
-  font-size: 11px;
-  margin-top: 90px;
- 
+.about .card h2 {
+	font-size: 20px;
+	margin-top: 161px;
 }
-.about .card p{
-  font-size: 11px;
-  width: 132px;
-  line-height: 24px;
-  margin-left: 20px;
-  margin-top: 20px;
+.about .card p {
+	font-size: 18px;
+	width: 212px;
+	line-height: 24px;
+	margin-left: 26px;
+
 }
 .about .left-img{
 
   position: relative;
 }
-.about .left-img .circle{
-  width: 150px;
-  height: 150px;
-  top: -159px;
-  left: 85px;
+.about .left-img .circle {
+	width: 255px;
+	height: 255px;
+	top: -199px;
+	left: 134px;
 }
 .about .left-img .circle img{
-  width: 150px;
-  height: 150px;
+  width: 255px;
+  height: 255px;
 }
 
-.about .right-text .info .left-info h3{
-  font-size: 9px;
-  margin-bottom: 5px;
+.about .right-text .info .left-info h3 {
+	font-size: 18px;
+	margin-bottom: 7px;
 }
 
 
@@ -1235,19 +1237,17 @@ margin-left: 25px;
 margin-top: 172px;
 margin-left: 18px;
 }
-.about .right-text .info .right-info h3{
-  font-size: 9px;
-  margin-left: 0;
-  margin-bottom: 5px;
- 
+.about .right-text .info .right-info h3 {
+	font-size: 18px;
+	margin-left: 7px;
+	margin-bottom: 11px;
 }
 
 .about .right-text .right-info{
   margin-left: 9px;
 }
-.about .right-text .info .right-info h3:nth-child(1){
-font-size: 7px;
-
+.about .right-text .info .right-info h3:nth-child(1) {
+	font-size: 17px;
 }
 .about .ab-box{
   justify-content: center;
@@ -1260,25 +1260,27 @@ font-size: 7px;
   height: 100%;
 }
 .contact .box .left a {
-  font-size: 30px;
- 
+	font-size: 38px;
 }
-.contact .box .left p{
-  font-size: 10px;
-  width: 100%;
-  margin-bottom: 20px;
-} 
+.contact .box .left p {
+	font-size: 16px;
+	width: 90%;
+	margin-bottom: 20px;
+	margin-left: 33px;
+	margin-right: 28px;
+}
 .contact .box .left .icon a {
   padding: 0;
   margin-left: 10px;
   margin-bottom:30px;
 }
-.contact .box .left .icon a i{
-  font-size: 17px;
+.contact .box .left .icon a i {
+	font-size: 25px;
 }
 
 .contact h2 {
-  margin-bottom: 50px;
+	margin-bottom: 50px;
+	font-size: 35px;
 }
 
 .contact .box{
@@ -1290,14 +1292,15 @@ flex-wrap: wrap;
   text-align: center;
 }
 
-.contact .box .right form input{
-  margin-left: 0;
-  padding: 0 10px;
-
+.contact .box .right form input {
+	margin-left: 0px;
+	padding: 15px 15px;
+  width: 90%;
+  color: white;
 }
 
 .contact .box .right form input:nth-child(5) {
-	width: 77%;
+	width: 90%;
 }
 
 .contact .right{
@@ -1305,7 +1308,7 @@ flex-wrap: wrap;
 }
 
 .contact .box .right form .sms textarea{
-  width: 77%;
+  width: 90%;
   margin-left: 0;
   padding: 10px 10px;
 }
