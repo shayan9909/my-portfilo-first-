@@ -887,7 +887,7 @@ margin-left: 25px;
 
 .about .card h2{
   font-size: 11px;
-  margin-top: 90px;
+  margin-top: 97px;
  
 }
 .about .card p{
@@ -895,7 +895,7 @@ margin-left: 25px;
   width: 132px;
   line-height: 24px;
   margin-left: 20px;
-  margin-top: 20px;
+  margin-top: 0px;
 }
 .about .left-img{
 
@@ -954,7 +954,7 @@ font-size: 7px;
 .contact .box .left p{
   font-size: 10px;
   width: 100%;
-  margin-bottom: 9px;
+  margin-bottom: 20px;
 } 
 .contact .box .left .icon a {
   padding: 0;
